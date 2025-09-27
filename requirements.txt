@@ -1,8 +1,9 @@
 # File: requirements.txt
 
 Flask
-pandas               # CSV/Excel reading and analyizng
+pandas               # CSV/Excel reading and analyzing
 python-dotenv
 openpyxl             # For Excel files
 Werkzeug             # For password hashing
 Flask-Login          # For user sessions 
+pytest               # For testing

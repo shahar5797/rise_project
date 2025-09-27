@@ -12,4 +12,5 @@ services:
       - .:/app
     environment:
       - FLASK_ENV=development
+      - PYTHONPATH=/app
     command: python run.py
